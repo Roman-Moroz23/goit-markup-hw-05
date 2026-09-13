@@ -248,28 +248,28 @@
                     <li class="soc-list-item">
                       <a href="" class="soc-link">
                         <svg class="soc-icon" width="16" height="16">
-                          <use href="./images/icons.svg#instagram" />
+                          <use href="./images/icons.svg#instagram"></use>
                         </svg>
                       </a>
                     </li>
                     <li class="soc-list-item">
                       <a href="" class="soc-link">
                         <svg class="soc-icon" width="16" height="16">
-                          <use href="./images/icons.svg#twitter" />
+                          <use href="./images/icons.svg#twitter"></use>
                         </svg>
                       </a>
                     </li>
                     <li class="soc-list-item">
                       <a href="" class="soc-link">
                         <svg class="soc-icon" width="16" height="16">
-                          <use href="./images/icons.svg#facebook" />
+                          <use href="./images/icons.svg#facebook"></use>
                         </svg>
                       </a>
                     </li>
                     <li class="soc-list-item">
                       <a href="" class="soc-link">
                         <svg class="soc-icon" width="16" height="16">
-                          <use href="./images/icons.svg#linkedin" />
+                          <use href="./images/icons.svg#linkedin"></use>
                         </svg>
                       </a>
                     </li>
@@ -427,34 +427,143 @@
             <li class="footer-list-item">
               <a href="" class="footer-link">
                 <svg class="footer-icon" width="24" height="24">
-                  <use href="./images/icons.svg#instagram" />
+                  <use href="./images/icons.svg#instagram"></use>
                 </svg>
               </a>
             </li>
             <li class="footer-list-item">
               <a href="" class="footer-link">
                 <svg class="footer-icon" width="24" height="24">
-                  <use href="./images/icons.svg#twitter" />
+                  <use href="./images/icons.svg#twitter"></use>
                 </svg>
               </a>
             </li>
             <li class="footer-list-item">
               <a href="" class="footer-link">
                 <svg class="footer-icon" width="24" height="24">
-                  <use href="./images/icons.svg#facebook" />
+                  <use href="./images/icons.svg#facebook"></use>
                 </svg>
               </a>
             </li>
             <li class="footer-list-item">
               <a href="" class="footer-link">
                 <svg class="footer-icon" width="24" height="24">
-                  <use href="./images/icons.svg#linkedin" />
+                  <use href="./images/icons.svg#linkedin"></use>
                 </svg>
               </a>
             </li>
           </ul>
         </div>
+        <div class="footer-subscribe">
+          <p>Subscribe</p>
+          <form class="footer-form">
+            <label class="footer-label">
+              <input
+                type="email"
+                name="email"
+                placeholder="E-mail"
+                class="footer-input"
+              />
+            </label>
+            <button type="submit" class="footer-button">
+              Subscribe
+              <svg class="foot-but-svg" width="24" height="24">
+                <use href="./images/icons.svg#telegram"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
+    <div class="modal-overlay">
+      <div class="modal">
+        <button type="button" class="close-button">
+          <svg class="close-but-svg" width="8" height="8">
+            <use href="./images/icons.svg#close"></use>
+          </svg>
+        </button>
+        <p class="modal-text">Leave your contacts and we will call you back</p>
+        <form class="modal-form">
+          <div class="modal-fileds">
+            <div class="modal-text-fileds">
+              <div class="modal-filed">
+                <label for="username" class="form-label" autofocus>
+                  Name
+                </label>
+                <div class="modal-field-wrapper">
+                  <input
+                    type="text"
+                    name="username"
+                    class="user-info"
+                    id="username"
+                  />
+                  <svg class="modal-svg" width="12" height="12">
+                    <use href="./images/icons.svg#person"></use>
+                  </svg>
+                </div>
+              </div>
+
+              <div class="modal-filed">
+                <label for="phone" class="form-label"> Phone </label>
+                <div class="modal-field-wrapper">
+                  <input type="tel" name="phone" id="phone" class="user-info" />
+                  <svg class="modal-svg" width="13" height="13">
+                    <use href="./images/icons.svg#phone"></use>
+                  </svg>
+                </div>
+              </div>
+
+              <div class="modal-filed">
+                <label for="email" class="form-label"> Email </label>
+                <div class="modal-field-wrapper">
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    class="user-info"
+                  />
+                  <svg class="modal-svg" width="15" height="12">
+                    <use href="./images/icons.svg#mail"></use>
+                  </svg>
+                </div>
+              </div>
+
+              <div class="modal-filed-comment">
+                <label for="comment" class="form-label-comment">
+                  Comment
+                </label>
+                <textarea
+                  name="comment"
+                  id="comment"
+                  placeholder="Text input"
+                  class="user-comment"
+                ></textarea>
+              </div>
+            </div>
+            <div class="armeent">
+              <input
+                name="bottom-armeent"
+                id="bottom-armeent"
+                type="checkbox"
+                value="true"
+                class="hidden-checkbox"
+              />
+              <label for="bottom-armeent" class="armeent-checkbox">
+                <span class="custom-checkbox">
+                  <svg width="10" height="8" class="check-mark">
+                    <use href="./images/icons.svg#check-mark" />
+                  </svg>
+                </span>
+                <span>
+                  I accept the terms and conditions of the
+                  <a href="#">Privacy Policy </a>
+                </span>
+              </label>
+            </div>
+          </div>
+          <button type="submit" class="send-button">Send</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>

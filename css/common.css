@@ -6,6 +6,10 @@ a {
   letter-spacing: 4%;
   text-decoration: none;
 }
+button,
+input {
+  font-family: inherit;
+}
 
 body {
   font-family: Roboto, sans-serif;
